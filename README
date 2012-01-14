@@ -2,3 +2,5 @@ CyanogenMod device configuration for the Samsung Galaxy Mini (GT-S5570)
 based on galaxy5 port with some changes from official tass overlay 
 
 By psyke83
+
+Note: this port utilizes the 2.6.35 kernel, so a Gingerbread ROM bootloader is required.
