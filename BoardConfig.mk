@@ -114,7 +114,7 @@ BOARD_UMS_LUNFILE := "/sys/devices/platform/usb_mass_storage/lun0/file"
 # WiFi
 PRODUCT_WIRELESS_TOOLS      := true
 WPA_SUPPLICANT_VERSION      := VER_0_6_X
-BOARD_WPA_SUPPLICANT_DRIVER := AR6000
+BOARD_WPA_SUPPLICANT_DRIVER := WEXT
 BOARD_WLAN_DEVICE           := ar6000
 WIFI_DRIVER_MODULE_PATH     := "/system/wifi/ar6000.ko"
 WIFI_DRIVER_MODULE_ARG      := ""
