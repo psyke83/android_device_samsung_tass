@@ -63,7 +63,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/tass/prebuilt/modules/fsr_stl.ko:root/lib/modules/fsr_stl.ko \
     device/samsung/tass/prebuilt/modules/rfs_fat.ko:root/lib/modules/rfs_fat.ko \
     device/samsung/tass/prebuilt/modules/rfs_glue.ko:root/lib/modules/rfs_glue.ko \
-    device/samsung/tass/prebuilt/modules/sec_param.ko:root/lib/modules/sec_param.ko \
+    device/samsung/tass/prebuilt/modules/sec_param.ko:root/lib/modules/sec_param.ko
 
 # Board-specific init & scripts
 PRODUCT_COPY_FILES += \
@@ -80,6 +80,10 @@ PRODUCT_COPY_FILES += \
     device/samsung/tass/prebuilt/etc/dhcpd/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
     device/samsung/tass/prebuilt/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     device/samsung/tass/prebuilt/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+
+# Bluetooth
+PRODUCT_COPY_FILES += \
+    device/samsung/tass/prebuilt/etc/bluetooth/audio.conf:system/etc/bluetooth/audio.conf
 
 # VOLD configuration
 PRODUCT_COPY_FILES += \
