@@ -22,6 +22,11 @@ on fs
     write /sys/devices/system/cpu/cpufreq/ondemand/down_threshold 30
 
 on boot
+
+    # Tweak AR6003 TCP buffering
+    setprop net.tcp.buffersize.default 4096,87380,196608,4096,16384,110208
+    setprop net.tcp.buffersize.wifi    4095,87380,393216,4096,16384,110208
+
     setprop ro.bt.bdaddr_path "/data/.nvmac_bt.info"
     mkdir /data/misc/bluetooth 0770 bluetooth bluetooth
     chown bluetooth bluetooth /sys/module/bluetooth_power/parameters/power
