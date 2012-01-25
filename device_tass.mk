@@ -39,9 +39,7 @@ PRODUCT_PACKAGES += \
 
 # MADTeam modifications
 PRODUCT_COPY_FILES += \
-    device/samsung/tass/prebuilt/bin/madconfig:system/bin/madconfig \
-    device/samsung/tass/prebuilt/etc/init.d/02madteam:system/etc/init.d/02madteam \
-    device/samsung/tass/prebuilt/etc/init.d/05mountsd:system/etc/init.d/05mountsd
+    device/samsung/tass/prebuilt/bin/madconfig:system/bin/madconfig
 
 # Hardware properties
 PRODUCT_COPY_FILES += \
